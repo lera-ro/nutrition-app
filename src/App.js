@@ -6,7 +6,7 @@ import Nutrition from './Nutrition';
 
 function App() {
 
-  const [mySearch, setMySearch] = useState();  
+  const [mySearch, setMySearch] = useState('');  
   const [myNutrient, setMyNutrient] = useState();
   const [stateLoader, setStateLoader] = useState(true);
   const [wordSubmitted, setWordSubmitted] = useState("");
